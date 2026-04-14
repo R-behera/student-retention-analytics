@@ -1,0 +1,48 @@
+{
+  "slug": "student-retention-analytics",
+  "title": "Student Retention Analytics",
+  "project_type": "analytics",
+  "domain": "EdTech",
+  "summary": "Spot retention risks, intervention windows, and program-level trends across learner cohorts.",
+  "tags": [
+    "students",
+    "retention",
+    "analytics"
+  ],
+  "accent": "#ff6b35",
+  "dashboard_metrics": [
+    {
+      "label": "North Star",
+      "value": "89",
+      "delta": "+7.1%"
+    },
+    {
+      "label": "Variance",
+      "value": "12%",
+      "delta": "-1.8%"
+    },
+    {
+      "label": "Decision Cycle",
+      "value": "2d",
+      "delta": "-0.5d"
+    }
+  ],
+  "sample_features": {
+    "current_conversion": 0.14,
+    "baseline_conversion": 0.12,
+    "volume": 2000,
+    "segment": "paid_users"
+  },
+  "sample_metrics": {
+    "acquisition": 43.0,
+    "activation": 42.0,
+    "retention": 54.0,
+    "revenue": 88.0
+  },
+  "knowledge_base": [
+    "Student Retention Analytics is positioned as a EdTech starter that emphasizes fast iteration, clear documentation, and production-friendly interfaces.",
+    "The primary value proposition is: Spot retention risks, intervention windows, and program-level trends across learner cohorts.",
+    "Recommended operating model: ship a small API, add observability, validate outputs with stakeholder review, and monitor the top business KPI every week.",
+    "Typical stakeholders include analytics, operations, product, and leadership teams working on students, retention, analytics."
+  ]
+}
